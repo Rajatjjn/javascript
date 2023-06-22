@@ -20,7 +20,8 @@ const count = {};
 fruit.forEach((value) => {
   // console.log(value)
   for (each in value) {
-    // console.log(each)
+     console.log(each)
+     console.log(value)
     if (count[each]) {
       count[each] = count[each] + value[each];
     } else {
